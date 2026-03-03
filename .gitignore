@@ -1,0 +1,25 @@
+# ===== Build Output =====
+build/
+*.o
+*.out
+*.exe
+*.app
+
+# ===== macOS =====
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# ===== VS Code =====
+# 아래 두 줄 중 하나 선택하세요
+.vscode/       
+
+# ===== C++ =====
+*.d
+*.a
+*.so
+*.dylib
+*.dSYM/
