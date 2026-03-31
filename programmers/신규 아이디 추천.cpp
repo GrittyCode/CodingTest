@@ -12,7 +12,7 @@ void Lower(string &new_id)
     for (auto &ch : new_id)
     {
         if (ch >= 'A' && ch <= 'Z')
-            ch += 32;
+            ch |= 32;
     }
 }
 
